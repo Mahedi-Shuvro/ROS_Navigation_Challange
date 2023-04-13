@@ -1,0 +1,6 @@
+<launch>
+
+    <node name="start" pkg="aiil_rosbot_demo" type="start.py" output="screen" >
+    </node>
+
+</launch>
