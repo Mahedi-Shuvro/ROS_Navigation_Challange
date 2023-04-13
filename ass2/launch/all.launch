@@ -1,0 +1,8 @@
+<launch>
+    <!-- Launch Hardware -->
+    <include file="$(find ass2)/launch/rosbot_pro.launch" />
+
+    <!-- Launch Mapping & Navigation-->
+    <include file="$(find ass2)/launch/navigation.launch" />
+
+</launch>
